@@ -28,6 +28,17 @@ public class Main {
         }
 
     }
+	
+	public static void googol(){
+    String googol = "1";
+    int len = googol.length();
+    while (len < 101) {
+      googol = googol + "0";
+      len = googol.length();
+      System.out.println(googol);    
+  }
+
+  }
 
     public static void main(String[] args) {
 	// This is my Inner and Outer For Loop
@@ -39,5 +50,6 @@ public class Main {
         }
         rollASix();
         countBlocks(7);
+	googol();
     }
 }
